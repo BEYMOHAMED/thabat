@@ -1,0 +1,30 @@
+.container {
+  height: 100vh;
+  background-color: black;
+}
+
+.carousel {
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: left 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.carousel::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: inherit; /* Inherit the background image from the parent */
+  filter: blur(10px); /* Apply blur */
+  z-index: -1; /* Place it behind the content */
+}

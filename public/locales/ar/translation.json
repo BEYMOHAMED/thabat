@@ -1,0 +1,33 @@
+{
+  "button": {
+    "switchAlban": "تبديل إلى مشروع البان",
+    "switchAseeb": " Aseeb التبديل إلى مشروع",
+    "viewGallery": "عرض الصور",
+    "explore360": "استكشاف 360",
+    "registerInterest": "سجّل اهتمامي",
+    "showDetails": "عرض التفاصيل",
+    "hideDetails": "إخفاء التفاصيل",
+    "back": "عودة"
+  },
+  "unitInformations": {
+    "available": "متاح",
+    "unitName": "وحدة البان 275",
+    "description": "لوريم إيبسوم دولور سيت آميت، كونسيكتيتور أديبيسينغ إيليت. ماوريس إيبسوم سابين، تينكيدونت.",
+    "registerInterest": "سجّل اهتمامي",
+    "completeForm": "يرجى ملء النموذج أدناه بمعلوماتك.",
+    "fullName": "الاسم الكامل",
+    "phoneNumber": "رقم الهاتف"
+  },
+  "AlbanUnitInformations": {
+    "available": "متاح",
+    "unitName": "مشروع البان لثبات",
+    "description": "تميز مشروعنا بزواياه وخطوطه القطرية، حيث تم فصل منطقة الضيوف عن منطقة العائلة، واستلهمنا خطوط المشروع من مصنع البان وفروعه.",
+    "registerInterest": "سجّل اهتمامي",
+    "completeForm": "يرجى ملء النموذج أدناه بمعلوماتك.",
+    "fullName": "الاسم الكامل",
+    "phoneNumber": "رقم الهاتف",
+    "totalUnits": "إجمالي الوحدات",
+    "city": "المدينة",
+    "riad": "الرياض"
+  }
+}

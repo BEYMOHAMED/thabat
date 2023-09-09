@@ -1,0 +1,12 @@
+{
+  "button": {
+    "switchAlban": "Switch to Alban Project",
+    "switchAseeb": "Switch to Aseeb Project",
+    "viewGallery": "View gallery",
+    "explore360": "Explore 360",
+    "registerInterest": "Register my interest",
+    "showDetails": "Show details",
+    "hideDetails": "Hide details",
+    "back": "Back"
+  }
+}

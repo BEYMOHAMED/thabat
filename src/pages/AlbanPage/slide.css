@@ -1,0 +1,20 @@
+.carousel-root {
+  max-width: 80%;
+  text-align: center;
+}
+
+.carousel {
+  text-align: center;
+}
+
+.carousel.carousel-slider {
+  border-radius: 20px;
+}
+
+.thumbs-wrapper {
+  margin: 0;
+}
+
+.thumb {
+  border-radius: 1em;
+}

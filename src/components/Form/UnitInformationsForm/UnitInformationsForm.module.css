@@ -1,0 +1,55 @@
+.container {
+  margin-top: 2em;
+  border-top: 1px solid var(--primary-border-color);
+  padding-top: 2em;
+}
+
+.title {
+  font-size: 1.25em;
+  margin-bottom: 2%;
+  font-family: "notoku-bold", sans-serif;
+}
+
+.description {
+  font-family: "notoku-medium", sans-serif;
+  margin-bottom: 6%;
+  font-size: 0.8em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  background-color: transparent;
+  border: 1.5px solid var(--primary-border-color);
+  border-radius: 1em;
+  padding: 1.25em;
+  margin-bottom: 1em;
+  font-family: "notoku-semi-bold", sans-serif;
+  font-size: 0.8em;
+  color: var(--primary-text-color);
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus {
+  border-color: var(--primary-button-color);
+}
+
+.input::placeholder {
+  color: var(--primary-place-holder-color);
+}
+
+.button {
+  border-radius: 1em;
+  padding: 1.25em;
+  font-family: "notoku-semi-bold", sans-serif;
+  font-size: 0.8em;
+  color: var(--primary-text-color);
+  background-color: var(--primary-button-color);
+  border: 1px solid var(--primary-button-color);
+  cursor: pointer;
+  margin-top: 2%;
+}

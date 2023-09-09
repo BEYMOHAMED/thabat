@@ -1,0 +1,24 @@
+.container {
+  position: absolute;
+  top: 2%;
+  right: 1%;
+  display: flex;
+  gap: 0.6em;
+  z-index: 2000;
+}
+
+.logoWrapper {
+  background-color: var(--primary-opacity-background-color);
+  border-radius: 0.5em;
+  padding: 0em 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  aspect-ratio: 1;
+}
+
+.logoWrapper:hover {
+  background-color: var(--primary-background-color);
+}

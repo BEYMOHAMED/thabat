@@ -1,0 +1,14 @@
+.container {
+  background-color: var(--primary-opacity-background-color);
+  position: absolute;
+  top: 2%;
+  right: 1%;
+  border-radius: 0.5em;
+  padding: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.container:hover {
+  background-color: var(--primary-background-color);
+}

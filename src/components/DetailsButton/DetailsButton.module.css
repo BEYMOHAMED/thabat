@@ -1,0 +1,36 @@
+.container {
+  border: none;
+  background-color: var(--primary-opacity-background-color);
+  display: flex;
+  align-items: center;
+  color: var(--primary-text-color);
+  gap: 1em;
+  position: fixed;
+  top: 2%;
+  left: 1%;
+  border-radius: 0.5em;
+  padding: 1em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: "notoku-semi-bold", sans-serif;
+  font-size: 0.8em;
+  z-index: 1000;
+}
+
+.container:hover {
+  background-color: var(--primary-background-color);
+}
+
+.container.show {
+  left: 26%;
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #43576a;
+  margin: 0;
+  padding: 0.6em 0.6em;
+  border-radius: 0.6em;
+}

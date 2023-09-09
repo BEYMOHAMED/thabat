@@ -1,0 +1,25 @@
+.container {
+  border: none;
+  background-color: var(--primary-opacity-background-color);
+  display: flex;
+  align-items: center;
+  color: var(--primary-text-color);
+  gap: 1em;
+  position: fixed;
+  top: 2%;
+  left: 1%;
+  border-radius: 0.5em;
+  padding: 1em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: "notoku-semi-bold", sans-serif;
+  font-size: 0.8em;
+}
+
+.container:hover {
+  background-color: var(--primary-background-color);
+}
+
+.container.show {
+  left: 26%;
+}

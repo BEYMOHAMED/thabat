@@ -1,0 +1,98 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.card {
+  width: 25%;
+  background-color: var(--primary-background-color);
+  direction: rtl;
+  color: var(--primary-text-color);
+  padding: 2em;
+  position: absolute;
+  left: -25%;
+  top: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  transition: left 0.3s ease;
+  z-index: 10000;
+  overflow-y: auto;
+}
+
+.card.show {
+  left: 0;
+}
+
+.availability {
+  color: var(--available-text-color);
+  font-family: "notoku-semi-bold", sans-serif;
+  background-color: var(--available-background-color);
+  padding: 0.2em 1em;
+  border-radius: 0.2em;
+  width: fit-content;
+  margin-bottom: 3%;
+  font-size: 0.75em;
+}
+
+.title {
+  font-family: "notoku-bold", sans-serif;
+  margin-bottom: 2%;
+  font-size: 1.25em;
+}
+
+.description {
+  font-family: "notoku-medium", sans-serif;
+  margin-bottom: 6%;
+  font-size: 0.8em;
+}
+
+.buttonsWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5em;
+}
+
+.galleryButton {
+  font-family: "notoku-semi-bold", sans-serif;
+  flex: 1;
+  padding: 0.8em 0em;
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  justify-content: center;
+  color: var(--secondary-text-color);
+  border-radius: 0.8em;
+  cursor: pointer;
+}
+
+.exploreButton {
+  font-family: "notoku-semi-bold", sans-serif;
+  flex: 1;
+  padding: 0.8em 0em;
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  justify-content: center;
+  color: var(--primary-text-color);
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 0.8em;
+  cursor: pointer;
+}
+
+.closeButton {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  padding: 1em;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff17;
+}

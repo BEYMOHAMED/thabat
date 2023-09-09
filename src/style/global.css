@@ -1,0 +1,43 @@
+:root {
+  font-size: 16px;
+  --primary-background-color: #08233a;
+  --primary-opacity-background-color: #08233acd;
+  --primary-text-color: #fff;
+  --secondary-text-color: #08233a;
+  --available-text-color: #95d935;
+  --available-background-color: #95d9352b;
+  --primary-place-holder-color: #ffffff3d;
+  --primary-button-color: #a4b5cb;
+  --primary-border-color: #21394e;
+}
+
+@font-face {
+  font-family: "notoku-bold";
+  src: url("/public/assets/fonts/NotoKufiArabic-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "notoku-light";
+  src: url("/public/assets/fonts/NotoKufiArabic-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "notoku-medium";
+  src: url("/public/assets/fonts/NotoKufiArabic-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "notoku-regular";
+  src: url("/public/assets/fonts/NotoKufiArabic-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "notoku-semi-bold";
+  src: url("/public/assets/fonts/NotoKufiArabic-SemiBold.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "notoku-thin";
+  src: url("/public/assets/fonts/NotoKufiArabic-Thin.ttf") format("truetype");
+}
